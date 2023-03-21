@@ -10,6 +10,17 @@ body{
 header{
 	background-color: #fff;
 }
+
+.section{
+	padding-top: 7%;
+	padding-bottom: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+
+
 footer{
 	background-color: var(--fondo-footer);
 	color: var(--color-footer);
@@ -17,3 +28,5 @@ footer{
 	text-align: center;
 	font-size: 13px;
 }
+
+

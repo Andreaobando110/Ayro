@@ -1,25 +1,114 @@
-body{
-	
-}
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+
 :root{
 	--color-negro:#282d33;
 	--menu-hover:#282d33;
 	--fondo-footer:#30363d;
 	--color-footer:#898989;
 }
+
+body{
+	font-family:  'Catamaran', sans-serif;
+	color: var(--color-negro);
+}
+
 header{
 	background-color: #fff;
 }
 
 .section{
-	padding-top: 7%;
+	padding-top: 6%;
 	padding-bottom: 2%;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 6%;
+	padding-right: 6%;
 }
 
+#hero{
+	padding-top: 4%;
+}
 
+#hero h1{
+	font-size: 67px;
+	font-weight: 700;
+	padding-bottom: 2%;
+}
 
+#hero h5{
+	font-size: 16px;
+	font-weight: 500;
+	padding-bottom: 2%;
+}
+
+#intro{
+	text-align: center;
+}
+
+#intro h6{
+	text-align: center;
+	padding-top: 8%;
+	font-weight: 700;
+	padding-bottom: 4%;
+}
+
+#intro p{
+	font-size: 13px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#services h6{
+	text-align: center;
+	padding-top: 8%;
+	font-weight: 700;
+	padding-bottom: 4%;
+}
+
+#services p{
+	font-size: 13px;
+	text-align: center;
+}
+
+#services img{
+	margin-left: 18%;
+}
+
+#cta{
+	background-image: url("../img/home-grid-banner.jpg");
+	background-size: cover;
+	margin-right: 8%;
+	margin-left: 8%;
+	align-content: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+#cta p{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+}
+
+#cta h2{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 800;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.btn-light-cta{
+	margin-left: 40%;
+	color: #000;
+	background-color: #fff;
+}
+
+#clients{
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
 
 footer{
 	background-color: var(--fondo-footer);
